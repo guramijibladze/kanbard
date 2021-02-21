@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid{
+    position: relative;
+    width: 100%;
+}
+
+.container-chaild{
+    position: absolute;
+    width: 60%;
+    height: 600px;
+    background-color: rgb(147, 147, 156);
+    margin-left: 20%;
+    margin-top: 7%;
+    border: 2px solid rgb(246, 243, 243);
+    border-radius: 25px;
+}
+
+/* .add-to-do .col{
+    margin-left: 10%;
+    margin-right: 10%;
+} */
+
+.text-todo:hover{
+    background-color: rgb(25, 75, 192);
+}
+
+.text-doing:hover{
+    background-color: rgb(91, 194, 60);
+}
+
+.todo-list{
+    background-color: rgb(194, 194, 194);
+}

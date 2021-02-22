@@ -1,11 +1,16 @@
+for(let i = 1; i <= 3; i++){
+    document.getElementById('text-done' + i ).style.visibility = "hidden";
+}
 isHidden = HTMLElement.hidden;
 HTMLElement.hidden = true | false;
+
 
 
 document.getElementById('add-list').hidden = false;
 let x = 0;
 document.getElementById('add-list').addEventListener('click', function(){
     x++;
+    
     if( x == 4){
         document.getElementById('add-list').hidden = true;
         return alert("სიაში შეგვიძლია მხოლო სამი ლისტის დამატება");
@@ -13,10 +18,14 @@ document.getElementById('add-list').addEventListener('click', function(){
         document.getElementById(x).hidden = false;
         // document.getElementById('doing' + x).hidden = false;
     }
+    
 
     document.getElementById('save' + x).addEventListener('click', function(){
         document.getElementById('doing' + x).hidden = false;
+        document.getElementById('text-done' + x).style.visibility = "visible";
     })
 })
+
+
 
 

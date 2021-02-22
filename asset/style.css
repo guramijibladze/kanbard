@@ -60,3 +60,7 @@
 .doing-list textarea{
     height: 95px;
 }
+
+.text-done p{
+    margin-bottom: 0;
+}

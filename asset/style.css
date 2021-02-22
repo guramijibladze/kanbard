@@ -27,12 +27,36 @@
 
 .text-todo:hover{
     background-color: rgb(25, 75, 192);
+    
 }
 
-.text-doing:hover{
-    background-color: rgb(91, 194, 60);
+.text-todo{
+    width: 3em;
+    /* margin-top: 10em; */
+    margin-left: 40%;
 }
+
+/* .text-doing:hover{
+    background-color: rgb(91, 194, 60);
+} */
 
 .todo-list{
     background-color: rgb(194, 194, 194);
+}
+
+.time{
+    width: 6em;
+}
+
+.save-delete{
+    width: 5.8em;
+}
+
+.doing-list{
+    height: 121px;
+    background-color: 	rgb(147, 189, 147);
+}
+
+.doing-list textarea{
+    height: 95px;
 }

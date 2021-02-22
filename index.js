@@ -11,5 +11,12 @@ document.getElementById('add-list').addEventListener('click', function(){
         return alert("სიაში შეგვიძლია მხოლო სამი ლისტის დამატება");
     }else{
         document.getElementById(x).hidden = false;
+        // document.getElementById('doing' + x).hidden = false;
     }
+
+    document.getElementById('save' + x).addEventListener('click', function(){
+        document.getElementById('doing' + x).hidden = false;
+    })
 })
+
+
